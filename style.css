@@ -1,0 +1,145 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    width: 390px;
+    height: 590px;
+    align-items: center;
+    box-shadow: 0px 10px 25px #cfc6ff;
+  }
+
+  /*Person stands for the image */
+.person{ 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 390px;
+  }
+
+/*Order summary */
+h1{  
+    font-weight: 900;
+    margin-left: 105px;
+    margin-top: 37.5px;
+    font-size: 21.5px;
+    color: hsl(223, 47%, 23%);
+  }
+
+
+/*Text under order summary */
+p{
+    font-size: 13.5px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    width: 305px;
+    padding-left: 40px;
+    line-height: 1.5; 
+  }
+
+/*plan is the annual plan box- it has the annual plan heading, music icon, the price and the change button */
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+    margin-left: 35px;
+    height: 81px;
+    position: relative;
+    
+   
+  }
+
+/*music icon*/
+.plan .icon{
+    width: 40px;
+    margin: 20px;
+    
+  }
+
+
+.annual {
+    display: inline-block;
+    margin-left: -10px;
+    font-size: 13.5px;
+    margin-top: 20px;
+    vertical-align: top;
+    color: hsl(223, 47%, 23%);
+    
+  }
+    
+/*this is the price- which i use the <br> tag in*/
+.annual span {
+  font-size: 13.5px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+
+  }
+
+.change {
+    position: relative;
+    width: 20px;
+    left: 67%;
+    top: -80%;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    font-weight: 550;
+    
+  }
+
+.change:hover{
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+
+
+.Payment-button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 317px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 12.5px;
+    transition: opacity 1s;
+   margin-left: 35px;
+   font-weight: bold;
+   box-shadow: 0px 10px 25px #cfc6ff;;
+  }
+
+.Payment-button:hover{
+    opacity: 0.7;
+}
+
+.Payment-button:active{
+       opacity: 0.5;
+   }
+
+.cancel-order {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+
+  }
+
+.cancel-order:hover{
+    color:  hsl(223, 47%, 23%);
+  }
+
+
